@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F605F37129AFD19800D7A6D7 /* Pieces in Resources */ = {isa = PBXBuildFile; fileRef = F605F37029AFD19800D7A6D7 /* Pieces */; };
+		F65B17B029AFEEB9000540DD /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F65B17AF29AFEEB9000540DD /* board.jpg */; };
 		F681108129AF9DEC00075FF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F681108029AF9DEC00075FF9 /* AppDelegate.swift */; };
 		F681108329AF9DEC00075FF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F681108229AF9DEC00075FF9 /* SceneDelegate.swift */; };
 		F681108529AF9DEC00075FF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F681108429AF9DEC00075FF9 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 		F681109829AF9DEE00075FF9 /* ChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F681109729AF9DEE00075FF9 /* ChessTests.swift */; };
 		F68110A229AF9DEE00075FF9 /* ChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68110A129AF9DEE00075FF9 /* ChessUITests.swift */; };
 		F68110A429AF9DEE00075FF9 /* ChessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68110A329AF9DEE00075FF9 /* ChessUITestsLaunchTests.swift */; };
+		F68B3A6929B3B37100A1F774 /* pieces_class.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68B3A6829B3B37100A1F774 /* pieces_class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F605F37029AFD19800D7A6D7 /* Pieces */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pieces; sourceTree = "<group>"; };
+		F65B17AF29AFEEB9000540DD /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board.jpg; sourceTree = "<group>"; };
 		F681107D29AF9DEC00075FF9 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F681108029AF9DEC00075FF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F681108229AF9DEC00075FF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		F681109D29AF9DEE00075FF9 /* ChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F68110A129AF9DEE00075FF9 /* ChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessUITests.swift; sourceTree = "<group>"; };
 		F68110A329AF9DEE00075FF9 /* ChessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F68B3A6829B3B37100A1F774 /* pieces_class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pieces_class.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +108,11 @@
 				F681108029AF9DEC00075FF9 /* AppDelegate.swift */,
 				F681108229AF9DEC00075FF9 /* SceneDelegate.swift */,
 				F681108429AF9DEC00075FF9 /* ViewController.swift */,
+				F68B3A6829B3B37100A1F774 /* pieces_class.swift */,
 				F681108629AF9DEC00075FF9 /* Main.storyboard */,
 				F681108929AF9DED00075FF9 /* Assets.xcassets */,
+				F65B17AF29AFEEB9000540DD /* board.jpg */,
+				F605F37029AFD19800D7A6D7 /* Pieces */,
 				F681108B29AF9DED00075FF9 /* LaunchScreen.storyboard */,
 				F681108E29AF9DED00075FF9 /* Info.plist */,
 			);
@@ -231,8 +240,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F605F37129AFD19800D7A6D7 /* Pieces in Resources */,
 				F681108D29AF9DED00075FF9 /* LaunchScreen.storyboard in Resources */,
 				F681108A29AF9DED00075FF9 /* Assets.xcassets in Resources */,
+				F65B17B029AFEEB9000540DD /* board.jpg in Resources */,
 				F681108829AF9DEC00075FF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +272,7 @@
 				F681108529AF9DEC00075FF9 /* ViewController.swift in Sources */,
 				F681108129AF9DEC00075FF9 /* AppDelegate.swift in Sources */,
 				F681108329AF9DEC00075FF9 /* SceneDelegate.swift in Sources */,
+				F68B3A6929B3B37100A1F774 /* pieces_class.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
